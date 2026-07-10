@@ -10,7 +10,7 @@ const steps = [
 
 export default function ProcessTimeline() {
   return (
-    <section className="py-24 bg-bg-base overflow-hidden">
+    <section className="pb-24 pt-0 bg-bg-base overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.h2 

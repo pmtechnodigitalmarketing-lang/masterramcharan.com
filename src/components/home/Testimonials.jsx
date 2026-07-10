@@ -39,7 +39,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-bg-base relative overflow-hidden">
+    <section className="pb-24 pt-0 bg-bg-base relative overflow-hidden">
       {/* Decorative blobs */}
       <div className="absolute top-1/2 left-[-10%] w-[30%] h-[60%] bg-accent/10 rounded-full blur-[100px] -translate-y-1/2"></div>
       
@@ -84,7 +84,7 @@ export default function Testimonials() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="relative max-w-md mx-auto w-full"
+          className="relative max-w-md mx-auto w-full mt-6 lg:mt-0"
         >
           <Swiper
             effect={'cards'}

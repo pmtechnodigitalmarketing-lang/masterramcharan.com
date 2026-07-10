@@ -42,8 +42,6 @@ export default function Hero() {
     }, 4000);
     return () => clearInterval(interval);
   }, []);
-  const y1 = useTransform(scrollY, [0, 1000], [0, 200]);
-  const y2 = useTransform(scrollY, [0, 1000], [0, -100]);
 
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-bg-base">
@@ -84,9 +82,9 @@ export default function Hero() {
           <div className="inline-block px-4 py-1 rounded-full glass border border-primary/20 text-primary text-sm mb-6 font-semibold">
             ✨ Premium Astrology Services in the USA
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold text-text-dark leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold text-text-dark leading-tight mb-2 md:mb-6">
             Discover the Guidance for <br />
-            <span className="text-primary block min-h-[2.5em] md:min-h-[1.5em] mt-2 pb-2 overflow-visible whitespace-normal md:whitespace-nowrap">
+            <span className="text-primary block min-h-[1.5em] mt-2 pb-0 md:pb-2 overflow-visible whitespace-normal md:whitespace-nowrap">
               <AnimatePresence mode="wait">
                 <motion.span
                   key={textIndex}
@@ -120,21 +118,11 @@ export default function Hero() {
 
         {/* Right Content - Visuals */}
         <motion.div 
-          style={{ y: y1 }}
-          className="relative flex justify-center items-center h-full mt-12 mb-32 lg:mt-0 lg:mb-0"
+          className="relative flex justify-center items-center h-full mt-12 mb-12 lg:mt-0 lg:mb-0"
         >
-          <div className="relative w-full max-w-[320px] lg:max-w-none lg:w-[480px] aspect-square lg:h-[480px] lg:aspect-auto">
-            {/* Glowing wheel */}
-            <motion.div 
-              animate={{ rotate: 360 }}
-              transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-              className="absolute inset-0 rounded-full border border-primary/20 glass-dark flex items-center justify-center"
-            >
-              <div className="w-full h-full rounded-full border border-primary/10 opacity-30 bg-[url('https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center mix-blend-overlay"></div>
-            </motion.div>
-
+          <div className="relative w-full max-w-[360px] lg:max-w-none lg:w-[540px] aspect-square lg:h-[540px] lg:aspect-auto">
             {/* Dynamic Images */}
-            <div className="absolute inset-4 rounded-full overflow-hidden shadow-2xl shadow-primary/20 border-4 border-primary/20 z-10">
+            <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border-4 border-primary/20 z-10">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={textIndex}
@@ -148,36 +136,6 @@ export default function Hero() {
                 />
               </AnimatePresence>
             </div>
-
-            {/* Floating Elements */}
-            <motion.div 
-              animate={{ y: [-10, 10, -10] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -top-10 -right-10 glass-card p-4 rounded-2xl flex items-center gap-4 text-text-dark border-primary/10 shadow-xl"
-            >
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-text-dark text-xl">
-                ⭐
-              </div>
-              <div>
-                <p className="font-bold">98%</p>
-                <p className="text-xs text-text-secondary">Client Satisfaction</p>
-              </div>
-            </motion.div>
-
-            <motion.div 
-              style={{ y: y2 }}
-              animate={{ y: [10, -10, 10] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              className="absolute -bottom-5 -left-10 glass-card p-4 rounded-2xl flex items-center gap-4 text-text-dark border-primary/10 shadow-xl"
-            >
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-accent to-yellow-400 flex items-center justify-center text-text-dark text-xl">
-                🌍
-              </div>
-              <div>
-                <p className="font-bold">All 50 States</p>
-                <p className="text-xs text-text-secondary">Online Consultations</p>
-              </div>
-            </motion.div>
           </div>
         </motion.div>
       </div>

@@ -67,22 +67,7 @@ export default function WhyChooseUs() {
                 alt="Master Ramcharan Guidance" 
                 className="rounded-2xl w-full h-[500px] object-cover"
               />
-              {/* Floating element */}
-              <motion.div 
-                animate={{ y: [-15, 15, -15] }}
-                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -right-8 bottom-12 glass-card p-6 rounded-2xl z-20 border border-primary/20 shadow-2xl backdrop-blur-md"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-text-dark text-xl font-bold">
-                    20+
-                  </div>
-                  <div>
-                    <p className="text-text-dark font-bold text-lg">Years of</p>
-                    <p className="text-text-secondary text-sm">Excellence</p>
-                  </div>
-                </div>
-              </motion.div>
+
             </div>
           </motion.div>
 

@@ -123,31 +123,31 @@ export default function ServiceDetail() {
           {/* SLIDE 1: The Title Sequence */}
           <section className="min-h-screen flex flex-col justify-center items-center text-center p-6 relative">
             <div className="absolute top-24 lg:top-32 left-6 lg:left-12 z-20">
-              <Link to="/services" className="inline-flex items-center text-text-dark/50 hover:text-text-dark transition-colors text-xs font-bold tracking-[0.3em] uppercase">
+              <Link to="/services" className="inline-flex items-center text-white/70 hover:text-white transition-colors text-xs font-bold tracking-[0.3em] uppercase">
                 <Icons.HiOutlineArrowLeft className="mr-3 text-lg" /> Return
               </Link>
             </div>
 
             <SlideIn delay={0.2} className="mb-8">
-              <div className="inline-flex items-center justify-center w-20 h-20 rounded-full border border-primary/20 bg-white/5 backdrop-blur-md shadow-[0_0_50px_rgba(255,255,255,0.05)]">
-                <Icon className="text-4xl text-text-dark/80" />
+              <div className="inline-flex items-center justify-center w-20 h-20 rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-[0_0_50px_rgba(255,255,255,0.05)]">
+                <Icon className="text-4xl text-white/90" />
               </div>
             </SlideIn>
             
             <SlideIn delay={0.4}>
-              <h2 className="text-accent text-sm font-bold tracking-[0.5em] uppercase mb-6">
+              <h2 className="text-accent text-sm font-bold tracking-[0.5em] uppercase mb-6 drop-shadow-md">
                 {service.category}
               </h2>
             </SlideIn>
 
             <SlideIn delay={0.6}>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-[7rem] font-serif font-bold text-text-dark mb-8 leading-[1.1] tracking-tight max-w-5xl">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-[7rem] font-serif font-bold text-white mb-8 leading-[1.1] tracking-tight max-w-5xl drop-shadow-lg">
                 {service.title}
               </h1>
             </SlideIn>
 
             <SlideIn delay={0.8}>
-              <p className="text-xl md:text-2xl text-text-dark/60 font-light max-w-2xl mx-auto leading-relaxed">
+              <p className="text-xl md:text-2xl text-white/80 font-light max-w-2xl mx-auto leading-relaxed drop-shadow-md">
                 {service.desc}
               </p>
             </SlideIn>
@@ -155,14 +155,14 @@ export default function ServiceDetail() {
             <motion.div 
               animate={{ y: [0, 15, 0], opacity: [0.3, 1, 0.3] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute bottom-12 left-1/2 -translate-x-1/2 text-text-dark/50 text-4xl"
+              className="absolute bottom-12 left-1/2 -translate-x-1/2 text-white/70 text-4xl drop-shadow-md"
             >
               <Icons.HiOutlineChevronDown />
             </motion.div>
           </section>
 
           {/* SLIDE 2: The Revelation (Overview & Benefits) */}
-          <section className="min-h-screen flex items-center p-6 lg:p-24 bg-white/40 backdrop-blur-[2px] border-t border-primary/20">
+          <section className="min-h-screen flex items-center p-6 lg:p-24 bg-white/90 backdrop-blur-[2px] border-t border-primary/20">
             <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-16 lg:gap-32 items-center">
               
               <SlideIn>
@@ -216,7 +216,7 @@ export default function ServiceDetail() {
           </section>
 
           {/* SLIDE 3: The Path & Voices (Process & Reviews) */}
-          <section className="min-h-screen flex items-center p-6 lg:p-24 bg-white/60 backdrop-blur-md border-t border-primary/20">
+          <section className="min-h-screen flex items-center p-6 lg:p-24 bg-white/90 backdrop-blur-md border-t border-primary/20">
             <div className="max-w-7xl mx-auto w-full">
               
               <SlideIn className="text-center mb-20">
@@ -247,7 +247,7 @@ export default function ServiceDetail() {
           </section>
 
           {/* SLIDE 4: The Gateway (Booking Form) */}
-          <section className="min-h-screen flex items-center justify-center p-6 lg:p-24 bg-white/80 backdrop-blur-xl border-t border-primary/20 pb-32">
+          <section className="min-h-screen flex items-center justify-center p-6 lg:p-24 bg-white/90 backdrop-blur-xl border-t border-primary/20 pb-32">
             <div className="max-w-4xl mx-auto w-full">
               
               <SlideIn className="text-center mb-16">

@@ -119,7 +119,7 @@ export default function About() {
       <Testimonials />
 
       {/* FAQ Section */}
-      <section className="py-24 bg-bg-base relative">
+      <section className="pb-24 pt-0 bg-bg-base relative">
         <div className="container mx-auto px-6 max-w-4xl">
           <div className="text-center mb-16">
             <motion.h2 

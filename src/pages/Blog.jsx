@@ -27,7 +27,7 @@ export default function Blog() {
       <div className="bg-white min-h-screen font-sans text-text-secondary">
         
         {/* Luxury Hero Section */}
-        <div className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-primary/20">
+        <div className="relative pt-20 pb-20 lg:pt-28 lg:pb-32 overflow-hidden border-b border-primary/20">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(var(--color-primary),0.15),transparent_50%)] pointer-events-none"></div>
           <div className="container mx-auto px-6 relative z-10 text-center">
             <motion.div

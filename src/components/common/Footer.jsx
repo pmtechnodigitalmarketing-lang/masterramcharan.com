@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-serif font-semibold mb-6 text-white">Quick Links</h4>
+            <h4 className="text-xl font-serif font-semibold mb-6" style={{ color: '#FFD700' }}>Quick Links</h4>
             <ul className="flex flex-col gap-3 text-white/70">
               {['Home', 'About', 'Services', 'Locations', 'Blog'].map(link => (
                 <li key={link}>
@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-serif font-semibold mb-6 text-white">Services</h4>
+            <h4 className="text-xl font-serif font-semibold mb-6" style={{ color: '#FFD700' }}>Services</h4>
             <ul className="flex flex-col gap-3 text-white/70">
               {['Love Astrology', 'Career Guidance', 'Birth Chart Reading', 'Tarot Reading', 'Numerology'].map(service => (
                 <li key={service}>
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-serif font-semibold mb-6 text-white">Contact Us</h4>
+            <h4 className="text-xl font-serif font-semibold mb-6" style={{ color: '#FFD700' }}>Contact Us</h4>
             <div className="flex flex-col gap-4 text-white/70 text-sm">
               <a href="tel:+14704520154" className="hover:text-primary transition-colors flex items-center gap-2">
                 📞 +1 (470) 452-0154
@@ -78,7 +78,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-white/60 text-sm">
-          <p>&copy; {new Date().getFullYear()} Master Ramcharan. All rights reserved.</p>
+          <p>&copy; 2017 Master Ramcharan. All rights reserved.</p>
           <div className="flex gap-6">
             <Link to="#" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link to="#" className="hover:text-white transition-colors">Terms of Service</Link>
