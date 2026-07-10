@@ -135,7 +135,7 @@ export default function ServiceDetail() {
             </SlideIn>
             
             <SlideIn delay={0.4}>
-              <h2 className="text-accent text-sm font-bold tracking-[0.5em] uppercase mb-6 drop-shadow-md">
+              <h2 className="text-primary text-sm font-bold tracking-[0.5em] uppercase mb-6 drop-shadow-md">
                 {service.category}
               </h2>
             </SlideIn>
@@ -167,7 +167,7 @@ export default function ServiceDetail() {
               
               <SlideIn>
                 <div className="space-y-8">
-                  <h3 className="text-accent text-xs font-bold tracking-[0.4em] uppercase">The Experience</h3>
+                  <h3 className="text-primary text-xs font-bold tracking-[0.4em] uppercase">The Experience</h3>
                   <h2 className="text-4xl md:text-5xl font-serif text-text-dark leading-tight">A journey into clarity.</h2>
                   <div className="w-16 h-[1px] bg-white/20"></div>
                   <p className="text-xl md:text-2xl text-text-dark/70 font-light leading-relaxed">
@@ -202,7 +202,7 @@ export default function ServiceDetail() {
                   <ul className="space-y-8">
                     {benefits.map((benefit, i) => (
                       <li key={i} className="flex items-start gap-6 group">
-                        <span className="text-accent text-2xl mt-1 opacity-50 group-hover:opacity-100 transition-opacity">
+                        <span className="text-primary text-2xl mt-1 opacity-50 group-hover:opacity-100 transition-opacity">
                           <Icons.HiOutlineStar />
                         </span>
                         <span className="text-xl text-text-dark/80 font-light leading-relaxed">{benefit}</span>
@@ -220,7 +220,7 @@ export default function ServiceDetail() {
             <div className="max-w-7xl mx-auto w-full">
               
               <SlideIn className="text-center mb-20">
-                <h3 className="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4">The Impact</h3>
+                <h3 className="text-primary text-xs font-bold tracking-[0.4em] uppercase mb-4">The Impact</h3>
                 <h2 className="text-4xl md:text-5xl font-serif text-text-dark">Voices of the transformed.</h2>
               </SlideIn>
 
@@ -228,7 +228,7 @@ export default function ServiceDetail() {
                 {displayReviews.map((review, idx) => (
                   <SlideIn key={idx} delay={idx * 0.2}>
                     <div className="p-10 rounded-3xl bg-white/[0.02] border border-primary/20 h-full flex flex-col hover:bg-white/[0.05] transition-colors">
-                      <div className="flex text-accent mb-8 text-xl opacity-80">
+                      <div className="flex text-primary mb-8 text-xl opacity-80">
                         {[...Array(review.rating)].map((_, i) => <Icons.HiStar key={i} />)}
                       </div>
                       <p className="text-text-dark/70 italic text-xl leading-relaxed font-light flex-grow mb-10">
@@ -251,7 +251,7 @@ export default function ServiceDetail() {
             <div className="max-w-4xl mx-auto w-full">
               
               <SlideIn className="text-center mb-16">
-                <h3 className="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4">The Gateway</h3>
+                <h3 className="text-primary text-xs font-bold tracking-[0.4em] uppercase mb-4">The Gateway</h3>
                 <h2 className="text-5xl md:text-6xl font-serif text-text-dark mb-6">Begin your journey.</h2>
                 <p className="text-xl text-text-dark/50 font-light">Secure your private consultation below.</p>
               </SlideIn>
@@ -391,7 +391,7 @@ export default function ServiceDetail() {
             <div className="max-w-4xl mx-auto w-full">
               
               <SlideIn className="text-center mb-16">
-                <h3 className="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4">Epilogue</h3>
+                <h3 className="text-primary text-xs font-bold tracking-[0.4em] uppercase mb-4">Epilogue</h3>
                 <h2 className="text-4xl md:text-5xl font-serif text-text-dark">Curiosities, answered.</h2>
               </SlideIn>
 

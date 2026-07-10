@@ -25,7 +25,7 @@ export default function Booking() {
         <div className="relative pt-32 pb-48 bg-white overflow-hidden">
           {/* Starry Background */}
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=2090&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-screen"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0B0A1F]/90"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-text-dark/90"></div>
           
           <div className="container mx-auto px-6 relative z-10 text-center">
             <motion.div
@@ -33,11 +33,11 @@ export default function Booking() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="text-accent font-semibold tracking-widest text-xs mb-4 uppercase">
+              <div className="text-primary font-semibold tracking-widest text-xs mb-4 uppercase">
                 Book A Consultation
               </div>
               <h1 className="text-5xl md:text-6xl font-serif font-bold text-text-dark mb-6">
-                Reserve a private <span className="italic text-accent">session.</span>
+                Reserve a private <span className="italic text-primary">session.</span>
               </h1>
               <p className="text-lg text-text-secondary max-w-2xl mx-auto">
                 Fill in a few gentle details. We'll respond within 24 hours to confirm your astrologer, time, and format.
@@ -180,24 +180,24 @@ export default function Booking() {
             >
               {/* What Happens Next */}
               <div className="bg-secondary/20 rounded-2xl p-8 shadow-2xl relative overflow-hidden text-text-dark">
-                <HiOutlineSparkles className="text-3xl text-accent mb-6" />
+                <HiOutlineSparkles className="text-3xl text-primary mb-6" />
                 <h3 className="text-2xl font-serif mb-8 font-semibold">What happens next</h3>
                 
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4">
-                    <span className="text-accent font-serif font-bold text-lg leading-none mt-1">01</span>
+                    <span className="text-primary font-serif font-bold text-lg leading-none mt-1">01</span>
                     <p className="text-sm text-text-secondary leading-relaxed">A senior astrologer reviews your request within 24 hours.</p>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="text-accent font-serif font-bold text-lg leading-none mt-1">02</span>
+                    <span className="text-primary font-serif font-bold text-lg leading-none mt-1">02</span>
                     <p className="text-sm text-text-secondary leading-relaxed">We propose a session time and matched consultant.</p>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="text-accent font-serif font-bold text-lg leading-none mt-1">03</span>
+                    <span className="text-primary font-serif font-bold text-lg leading-none mt-1">03</span>
                     <p className="text-sm text-text-secondary leading-relaxed">Your astrologer prepares your chart in advance.</p>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="text-accent font-serif font-bold text-lg leading-none mt-1">04</span>
+                    <span className="text-primary font-serif font-bold text-lg leading-none mt-1">04</span>
                     <p className="text-sm text-text-secondary leading-relaxed">You meet online for a private session, recorded for you.</p>
                   </li>
                 </ul>

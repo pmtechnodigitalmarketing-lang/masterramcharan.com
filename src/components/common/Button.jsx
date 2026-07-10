@@ -8,7 +8,7 @@ const Button = forwardRef(
       'inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none',
       {
         'bg-primary text-text-dark hover:bg-primary-hover hover:glow-primary': variant === 'primary',
-        'bg-accent text-text-dark hover:bg-amber-600 hover:glow-accent': variant === 'accent',
+        'bg-accent text-text-dark hover:bg-primary-hover hover:glow-accent': variant === 'accent',
         'glass text-text-dark hover:glass-card hover:text-primary border-primary/20': variant === 'glass',
         'bg-transparent text-text-dark hover:bg-gray-100': variant === 'ghost',
         'border-2 border-primary text-primary hover:bg-primary hover:text-text-dark': variant === 'outline',

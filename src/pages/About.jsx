@@ -46,7 +46,7 @@ export default function About() {
             >
               <h1 className="text-5xl md:text-6xl font-serif font-bold text-text-dark mb-6">
                 Guiding Your Path <br/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Since 2010</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Since 2010</span>
               </h1>
               <p className="text-lg text-text-secondary mb-6 leading-relaxed">
                 Master Ramcharan was founded with a singular vision: to demystify the cosmic energies and provide actionable, profound guidance to individuals across the United States. For over a decade, we have been the trusted compass for those navigating the complexities of modern life.
@@ -64,15 +64,15 @@ export default function About() {
               <div className="flex gap-8 border-t border-primary/20 pt-8 mt-8">
                 <div>
                   <h3 className="text-3xl font-serif text-text-dark font-bold">10k+</h3>
-                  <p className="text-accent font-semibold text-sm">Happy Clients</p>
+                  <p className="text-primary font-semibold text-sm">Happy Clients</p>
                 </div>
                 <div>
                   <h3 className="text-3xl font-serif text-text-dark font-bold">50</h3>
-                  <p className="text-accent font-semibold text-sm">US States Served</p>
+                  <p className="text-primary font-semibold text-sm">US States Served</p>
                 </div>
                 <div>
                   <h3 className="text-3xl font-serif text-text-dark font-bold">15+</h3>
-                  <p className="text-accent font-semibold text-sm">Expert Astrologers</p>
+                  <p className="text-primary font-semibold text-sm">Expert Astrologers</p>
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ export default function About() {
                   <div className="w-10 h-10 rounded-full border-2 border-bg-base bg-primary text-text-dark flex items-center justify-center text-xs font-bold relative z-40">10k+</div>
                 </div>
                 <div className="text-sm text-text-secondary">
-                  <div className="flex text-accent text-base tracking-tighter mb-0.5">★★★★★</div>
+                  <div className="flex text-primary text-base tracking-tighter mb-0.5">★★★★★</div>
                   <span className="font-medium text-text-dark">Rated 4.9/5</span> by thousands
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function About() {
               className="relative"
             >
               <div className="glass-card p-2 rounded-3xl overflow-hidden relative shadow-2xl shadow-primary/10 border-primary/20">
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 mix-blend-overlay"></div>
+                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 mix-blend-overlay"></div>
                 <img 
                   src="/images/Mahadev Blessings  _ Divine Lord Shiva Wallpaper.jpg" 
                   alt="Mahadev Blessings" 

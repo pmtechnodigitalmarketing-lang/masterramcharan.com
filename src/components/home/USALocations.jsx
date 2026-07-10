@@ -21,7 +21,7 @@ export default function USALocations() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-bold text-text-dark mb-6"
           >
-            Trusted Across the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">USA</span>
+            Trusted Across the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">USA</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -46,7 +46,7 @@ export default function USALocations() {
             >
               <HiOutlineLocationMarker className="text-3xl text-primary mb-3 group-hover:scale-110 transition-transform" />
               <h4 className="text-text-dark font-medium mb-1">{loc.city}</h4>
-              <p className="text-sm text-accent font-semibold">{loc.clients} Clients</p>
+              <p className="text-sm text-primary font-semibold">{loc.clients} Clients</p>
             </motion.div>
           ))}
         </div>

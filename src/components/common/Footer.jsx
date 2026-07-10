@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-[#1E1B4B] via-[#2E1065] to-[#111827] text-white pt-20 pb-10 relative overflow-hidden border-t border-primary/20">
+    <footer className="bg-text-dark text-white pt-20 pb-10 relative overflow-hidden border-t border-primary/20">
       {/* Decorative blobs */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">
         <div className="absolute top-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-primary blur-[120px]"></div>
@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-serif font-semibold mb-6" style={{ color: '#FFD700' }}>Quick Links</h4>
+            <h4 className="text-xl font-serif font-semibold mb-6 text-white">Quick Links</h4>
             <ul className="flex flex-col gap-3 text-white/70">
               {['Home', 'About', 'Services', 'Locations', 'Blog'].map(link => (
                 <li key={link}>
@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-serif font-semibold mb-6" style={{ color: '#FFD700' }}>Services</h4>
+            <h4 className="text-xl font-serif font-semibold mb-6 text-white">Services</h4>
             <ul className="flex flex-col gap-3 text-white/70">
               {['Love Astrology', 'Career Guidance', 'Birth Chart Reading', 'Tarot Reading', 'Numerology'].map(service => (
                 <li key={service}>
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-serif font-semibold mb-6" style={{ color: '#FFD700' }}>Contact Us</h4>
+            <h4 className="text-xl font-serif font-semibold mb-6 text-white">Contact Us</h4>
             <div className="flex flex-col gap-4 text-white/70 text-sm">
               <a href="tel:+14704520154" className="hover:text-primary transition-colors flex items-center gap-2">
                 📞 +1 (470) 452-0154

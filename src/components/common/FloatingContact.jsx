@@ -61,7 +61,7 @@ export default function FloatingContact() {
               <Icons.HiOutlineLocationMarker />
             </a>
             
-            <a href="mailto:shivakumaramuddappa19@gmail.com" className="w-14 h-14 bg-accent rounded-full flex items-center justify-center text-white text-2xl shadow-[0_4px_15px_rgba(216,180,254,0.6)] hover:scale-110 transition-all" title="Email Us">
+            <a href="mailto:shivakumaramuddappa19@gmail.com" className="w-14 h-14 bg-accent rounded-full flex items-center justify-center text-white text-2xl shadow-[0_4px_15px_rgba(180,225,235,0.6)] hover:scale-110 transition-all" title="Email Us">
               <Icons.HiOutlineMail />
             </a>
 
@@ -82,7 +82,7 @@ export default function FloatingContact() {
           setIsOpen(!isOpen);
           if (isOpen) setShowSocials(false); // close socials if master is closed
         }}
-        className="w-16 h-16 bg-gradient-to-r from-primary to-[#6366F1] rounded-full flex items-center justify-center text-white text-3xl shadow-2xl hover:scale-110 transition-all duration-300 pointer-events-auto border-2 border-white z-50 relative"
+        className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white text-3xl shadow-2xl hover:scale-110 transition-all duration-300 pointer-events-auto border-2 border-white z-50 relative"
         title="Contact Options"
       >
         <motion.div animate={{ rotate: isOpen ? 135 : 0 }} transition={{ duration: 0.3 }}>

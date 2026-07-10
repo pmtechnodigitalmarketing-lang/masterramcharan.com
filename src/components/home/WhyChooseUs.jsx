@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
                   transition={{ delay: index * 0.1, duration: 0.4 }}
                   className="flex items-center gap-3"
                 >
-                  <HiCheckCircle className="text-accent text-2xl shrink-0" />
+                  <HiCheckCircle className="text-primary text-2xl shrink-0" />
                   <span className="font-medium text-white">{reason}</span>
                 </motion.div>
               ))}

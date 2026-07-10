@@ -56,7 +56,7 @@ export default function Testimonials() {
           </div>
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-text-dark mb-6">
             Words from our <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               Radiant Community
             </span>
           </h2>
@@ -98,7 +98,7 @@ export default function Testimonials() {
               <SwiperSlide key={index} className="flex items-center justify-center">
                 <div className="bg-white rounded-3xl p-8 h-full w-full shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-gray-100 flex flex-col justify-between">
                   <div>
-                    <div className="flex text-accent mb-6">
+                    <div className="flex text-primary mb-6">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <HiStar key={i} className="w-5 h-5" />
                       ))}

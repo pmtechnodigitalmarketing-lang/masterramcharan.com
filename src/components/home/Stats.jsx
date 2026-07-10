@@ -10,7 +10,7 @@ const stats = [
 export default function Stats() {
   return (
     <section className="relative z-20 mt-8 mb-12 container mx-auto px-6">
-      <div className="rounded-3xl p-6 md:p-12 shadow-[0_20px_50px_rgba(139,92,246,0.3)] bg-gradient-to-r from-primary via-[#9333EA] to-[#6366F1] text-white relative overflow-hidden border border-white/20">
+      <div className="rounded-3xl p-6 md:p-12 shadow-[0_20px_50px_rgba(120,164,203,0.3)] bg-gradient-to-r from-primary via-accent to-primary text-white relative overflow-hidden border border-white/20">
         
         {/* Decorative Light Flares */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>

@@ -2,11 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #8B5CF6; /* Vibrant, eye-catching Purple (Violet-500) */
-  --color-primary-hover: #7C3AED; /* Deeper Purple for hover (Violet-600) */
-  --color-secondary: #F3E8FF; /* Extremely soft, elegant purple tint for backgrounds */
-  --color-accent: #D8B4FE; /* Bright, glowing purple for accents */
-  --color-bg-base: #FFFFFF; /* Crisp White */
+  --color-primary: #78A4CB; /* Medium blue */
+  --color-primary-hover: #95BDD7; /* Medium light blue */
+  --color-secondary: #F9E8A2; /* Pale yellow */
+  --color-accent: #B4E1EB; /* Light blue */
+  --color-bg-base: #FFFFFF; /* White */
   --color-text-dark: #111827; /* Near Black for ultimate crisp contrast */
   --color-text-secondary: #4B5563; /* Refined Gray */
   
@@ -34,7 +34,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
-  color: var(--color-text-dark);
 }
 
 /* Glassmorphism utilities */
@@ -63,11 +62,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Glowing effects */
 @utility glow-primary {
-  box-shadow: 0 0 20px rgba(79, 70, 229, 0.4);
+  box-shadow: 0 0 20px rgba(120, 164, 203, 0.4);
 }
 
 @utility glow-accent {
-  box-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+  box-shadow: 0 0 20px rgba(180, 225, 235, 0.4);
 }
 
 /* Custom scrollbar */
@@ -78,9 +77,9 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--color-bg-base);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-secondary);
+  background: var(--color-primary);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-primary);
+  background: var(--color-accent);
 }

@@ -45,7 +45,7 @@ export default function ServicesPreview() {
                 className="group relative glass-dark border border-primary/20 rounded-3xl p-8 hover:glass-card transition-all duration-500 overflow-hidden flex flex-col h-full"
               >
                 {/* Hover Gradient Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
                 <div className="relative z-10 flex flex-col h-full">
                   {service.image ? (

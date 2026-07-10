@@ -59,7 +59,7 @@ export default function BookingFormWidget() {
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center flex-shrink-0 text-xl">
+                    <div className="w-12 h-12 rounded-xl bg-accent/10 text-primary flex items-center justify-center flex-shrink-0 text-xl">
                       <HiOutlineLocationMarker />
                     </div>
                     <div>

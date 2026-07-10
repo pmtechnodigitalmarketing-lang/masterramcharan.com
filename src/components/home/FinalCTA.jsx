@@ -22,7 +22,7 @@ export default function FinalCTA() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mx-auto glass-dark border border-primary/20 p-12 md:p-20 rounded-[3rem] shadow-2xl backdrop-blur-xl"
         >
-          <div className="w-16 h-16 mx-auto bg-gradient-to-br from-accent to-orange-400 rounded-full flex items-center justify-center text-3xl mb-8">
+          <div className="w-16 h-16 mx-auto bg-gradient-to-br from-accent to-primary-hover rounded-full flex items-center justify-center text-3xl mb-8">
             ✨
           </div>
           <h2 className="text-4xl md:text-6xl font-serif font-bold mb-6">

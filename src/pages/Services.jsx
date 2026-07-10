@@ -76,7 +76,7 @@ export default function Services() {
                   transition={{ duration: 0.4 }}
                   className="group relative glass-dark rounded-3xl p-6 hover:glass-card transition-all duration-500 flex flex-col h-full border-primary/20"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
                   
                   <div className="relative z-10 flex flex-col h-full">
                     {service.image ? (
@@ -93,7 +93,7 @@ export default function Services() {
                       </div>
                     )}
                     <div className="mb-2">
-                      <span className="text-xs font-bold text-accent uppercase tracking-wider">{service.category}</span>
+                      <span className="text-xs font-bold text-primary uppercase tracking-wider">{service.category}</span>
                     </div>
                     <h3 className="text-xl font-serif font-semibold mb-3 text-text-dark group-hover:text-primary transition-colors">
                       {service.title}

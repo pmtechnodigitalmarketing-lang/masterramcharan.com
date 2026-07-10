@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { cn } from '../../utils/cn';
 import { Button } from './Button';
-import { HiMenu, HiX } from 'react-icons/hi';
+import { HiMenu, HiX, HiStar } from 'react-icons/hi';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,7 +35,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="text-2xl font-serif font-bold text-primary flex items-center gap-2">
-          <span className="text-3xl">✨</span> Master Ramcharan
+          <HiStar className="text-3xl text-primary" /> Master Ramcharan
         </Link>
 
         {/* Desktop Nav */}
