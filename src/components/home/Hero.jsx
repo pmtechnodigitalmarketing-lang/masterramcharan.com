@@ -111,7 +111,7 @@ export default function Hero() {
             Experience trusted astrology consultations. Receive personalized spiritual solutions for love and relationships, effective black magic removal, and deep insights into marriage compatibility from our expert astrologers.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button variant="primary" size="lg" to="/services">Book Consultation</Button>
+            <Button variant="primary" size="lg" to="/booking">Book Consultation</Button>
             <Button variant="outline" size="lg" to="/services">Explore Services</Button>
           </div>
         </motion.div>
