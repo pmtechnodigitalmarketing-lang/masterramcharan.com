@@ -181,7 +181,7 @@ export default function Locations() {
                               </div>
                             </div>
                           ) : (
-                            <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-text-dark transition-all duration-500">
+                            <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-500">
                               <Icon />
                             </div>
                           )}
@@ -241,7 +241,7 @@ export default function Locations() {
                   </div>
                   
                   <div className="mt-12 text-center">
-                    <button onClick={() => setIsReviewModalOpen(true)} className="bg-primary text-text-dark px-8 py-3 rounded-full hover:bg-primary-hover transition-colors font-medium shadow-lg hover:shadow-primary/30">
+                    <button onClick={() => setIsReviewModalOpen(true)} className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary-hover transition-colors font-medium shadow-lg hover:shadow-primary/30">
                       Leave a Review
                     </button>
                   </div>
@@ -311,7 +311,7 @@ export default function Locations() {
                     <label className="block text-text-secondary mb-2">Your Review</label>
                     <textarea required name="review" rows="4" className="w-full bg-white/50 border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-primary resize-none" placeholder={`Share your experience with our services in ${selectedLocation?.city}...`}></textarea>
                   </div>
-                  <button type="submit" className="bg-primary text-text-dark rounded-full py-4 mt-4 font-medium hover:bg-primary-hover transition-colors shadow-lg hover:shadow-primary/30">
+                  <button type="submit" className="bg-primary text-white rounded-full py-4 mt-4 font-medium hover:bg-primary-hover transition-colors shadow-lg hover:shadow-primary/30">
                     Submit Review
                   </button>
                 </form>

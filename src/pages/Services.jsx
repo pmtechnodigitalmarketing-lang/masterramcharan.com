@@ -53,7 +53,7 @@ export default function Services() {
                 onClick={() => setFilter(cat)}
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
                   filter === cat 
-                    ? 'bg-primary text-text-dark shadow-lg shadow-primary/30' 
+                    ? 'bg-primary text-white shadow-lg shadow-primary/30' 
                     : 'glass text-text-dark hover:bg-white/50 hover:text-primary'
                 }`}
               >
@@ -88,7 +88,7 @@ export default function Services() {
                         </div>
                       </div>
                     ) : (
-                      <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-2xl mb-5 group-hover:scale-110 group-hover:bg-primary group-hover:text-text-dark transition-all duration-500">
+                      <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-2xl mb-5 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-500">
                         <Icon />
                       </div>
                     )}

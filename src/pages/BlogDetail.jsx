@@ -60,11 +60,11 @@ export default function BlogDetail() {
             <div className="mt-16 pt-8 border-t border-primary/10 flex justify-between items-center">
               <p className="text-text-secondary font-medium">Share this article:</p>
               <div className="flex gap-4">
-                <button className="w-10 h-10 rounded-full glass flex items-center justify-center text-text-dark hover:bg-primary hover:text-text-dark transition-colors border-primary/20 shadow-sm">
+                <button className="w-10 h-10 rounded-full glass flex items-center justify-center text-text-dark hover:bg-primary hover:text-white transition-colors border-primary/20 shadow-sm">
                   <span className="sr-only">Twitter</span>
                   𝕏
                 </button>
-                <button className="w-10 h-10 rounded-full glass flex items-center justify-center text-text-dark hover:bg-primary hover:text-text-dark transition-colors border-primary/20 shadow-sm">
+                <button className="w-10 h-10 rounded-full glass flex items-center justify-center text-text-dark hover:bg-primary hover:text-white transition-colors border-primary/20 shadow-sm">
                   <span className="sr-only">Facebook</span>
                   f
                 </button>

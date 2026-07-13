@@ -57,7 +57,7 @@ export default function ServicesPreview() {
                       </div>
                     </div>
                   ) : (
-                    <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-text-dark transition-all duration-500">
+                    <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-500">
                       <Icon />
                     </div>
                   )}

@@ -87,7 +87,7 @@ export default function About() {
                   <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=100&auto=format&fit=crop" alt="Client" className="w-10 h-10 rounded-full border-2 border-bg-base object-cover relative z-10" />
                   <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" alt="Client" className="w-10 h-10 rounded-full border-2 border-bg-base object-cover relative z-20" />
                   <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" alt="Client" className="w-10 h-10 rounded-full border-2 border-bg-base object-cover relative z-30" />
-                  <div className="w-10 h-10 rounded-full border-2 border-bg-base bg-primary text-text-dark flex items-center justify-center text-xs font-bold relative z-40">10k+</div>
+                  <div className="w-10 h-10 rounded-full border-2 border-bg-base bg-primary text-white flex items-center justify-center text-xs font-bold relative z-40">10k+</div>
                 </div>
                 <div className="text-sm text-text-secondary">
                   <div className="flex text-primary text-base tracking-tighter mb-0.5">★★★★★</div>
