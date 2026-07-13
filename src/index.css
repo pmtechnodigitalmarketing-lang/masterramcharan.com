@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #78A4CB; /* Medium blue */
-  --color-primary-hover: #95BDD7; /* Medium light blue */
-  --color-secondary: #F9E8A2; /* Pale yellow */
-  --color-accent: #B4E1EB; /* Light blue */
+  --color-primary: #8B0000; /* Dark red */
+  --color-primary-hover: #A50000; /* Lighter dark red */
+  --color-secondary: #D1D5DB; /* Light grey */
+  --color-accent: #E5E7EB; /* Lighter grey */
   --color-bg-base: #FFFFFF; /* White */
-  --color-text-dark: #111827; /* Near Black for ultimate crisp contrast */
-  --color-text-secondary: #4B5563; /* Refined Gray */
+  --color-text-dark: #4A0000; /* Very Dark Red, almost black */
+  --color-text-secondary: #6B7280; /* Medium Grey */
   
   --font-sans: 'Inter', sans-serif;
   --font-serif: 'Playfair Display', serif;
@@ -62,11 +62,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Glowing effects */
 @utility glow-primary {
-  box-shadow: 0 0 20px rgba(120, 164, 203, 0.4);
+  box-shadow: 0 0 20px rgba(139, 0, 0, 0.4); /* Dark Red */
 }
 
 @utility glow-accent {
-  box-shadow: 0 0 20px rgba(180, 225, 235, 0.4);
+  box-shadow: 0 0 20px rgba(229, 231, 235, 0.4); /* Light Grey */
 }
 
 /* Custom scrollbar */

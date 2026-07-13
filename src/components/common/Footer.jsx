@@ -21,10 +21,10 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               {[
-                { Icon: FaFacebookF, hoverClass: 'hover:bg-[#1877F2]' },
-                { Icon: FaTwitter, hoverClass: 'hover:bg-[#1DA1F2]' },
-                { Icon: FaInstagram, hoverClass: 'hover:bg-[#E4405F]' },
-                { Icon: FaYoutube, hoverClass: 'hover:bg-[#FF0000]' }
+                { Icon: FaFacebookF, hoverClass: 'hover:bg-primary' },
+                { Icon: FaTwitter, hoverClass: 'hover:bg-primary' },
+                { Icon: FaInstagram, hoverClass: 'hover:bg-primary' },
+                { Icon: FaYoutube, hoverClass: 'hover:bg-primary' }
               ].map((social, i) => (
                 <a key={i} href="#" className={`w-10 h-10 rounded-full bg-white/5 flex items-center justify-center transition-all text-white hover:scale-110 ${social.hoverClass}`}>
                   <social.Icon />

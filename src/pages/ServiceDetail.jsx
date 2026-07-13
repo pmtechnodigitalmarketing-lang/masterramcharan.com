@@ -113,8 +113,8 @@ export default function ServiceDetail() {
             style={{ backgroundImage: `url('${service.image || "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=2090&auto=format&fit=crop"}')` }}
           ></motion.div>
           {/* Moody Vignette & Dark Overlays */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,#000_100%)] opacity-80"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,#4A0000_100%)] opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-text-dark/80 via-transparent to-text-dark"></div>
         </div>
 
         {/* Main Scrollable Content */}
@@ -190,7 +190,7 @@ export default function ServiceDetail() {
                       rel="noreferrer" 
                       className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-transparent border border-primary/20 text-text-dark font-bold tracking-widest text-sm uppercase hover:bg-white/10 transition-colors"
                     >
-                      <FaWhatsapp className="text-xl text-[#25D366]" /> WhatsApp
+                      <FaWhatsapp className="text-xl text-primary" /> WhatsApp
                     </a>
                   </div>
                 </div>
@@ -328,12 +328,12 @@ export default function ServiceDetail() {
                               {...register("state")}
                               className="w-full bg-transparent border-b border-primary/20 px-0 py-4 text-text-dark focus:outline-none focus:border-primary/20 transition-colors text-xl appearance-none cursor-pointer"
                             >
-                              <option value="" className="bg-[#111]">Select Region</option>
-                              <option value="US" className="bg-[#111]">United States</option>
-                              <option value="UK" className="bg-[#111]">United Kingdom</option>
-                              <option value="CA" className="bg-[#111]">Canada</option>
-                              <option value="AU" className="bg-[#111]">Australia</option>
-                              <option value="OTHER" className="bg-[#111]">Other</option>
+                              <option value="" className="bg-bg-base text-text-dark">Select Region</option>
+                              <option value="US" className="bg-bg-base text-text-dark">United States</option>
+                              <option value="UK" className="bg-bg-base text-text-dark">United Kingdom</option>
+                              <option value="CA" className="bg-bg-base text-text-dark">Canada</option>
+                              <option value="AU" className="bg-bg-base text-text-dark">Australia</option>
+                              <option value="OTHER" className="bg-bg-base text-text-dark">Other</option>
                             </select>
                             <label className="absolute left-0 -top-6 text-xs font-bold tracking-[0.2em] text-text-dark/40 uppercase">
                               Region
@@ -345,9 +345,9 @@ export default function ServiceDetail() {
                               {...register("timePreference")}
                               className="w-full bg-transparent border-b border-primary/20 px-0 py-4 text-text-dark focus:outline-none focus:border-primary/20 transition-colors text-xl appearance-none cursor-pointer"
                             >
-                              <option value="morning" className="bg-[#111]">Morning (EST)</option>
-                              <option value="afternoon" className="bg-[#111]">Afternoon (EST)</option>
-                              <option value="evening" className="bg-[#111]">Evening (EST)</option>
+                              <option value="morning" className="bg-bg-base text-text-dark">Morning (EST)</option>
+                              <option value="afternoon" className="bg-bg-base text-text-dark">Afternoon (EST)</option>
+                              <option value="evening" className="bg-bg-base text-text-dark">Evening (EST)</option>
                             </select>
                             <label className="absolute left-0 -top-6 text-xs font-bold tracking-[0.2em] text-text-dark/40 uppercase">
                               Preferred Timing

@@ -8,10 +8,10 @@ export default function FloatingContact() {
   const [showSocials, setShowSocials] = useState(false);
 
   const socials = [
-    { Icon: FaFacebookF, color: 'text-[#1877F2]', link: '#' },
-    { Icon: FaTwitter, color: 'text-[#1DA1F2]', link: '#' },
-    { Icon: FaInstagram, color: 'text-[#E4405F]', link: '#' },
-    { Icon: FaYoutube, color: 'text-[#FF0000]', link: '#' }
+    { Icon: FaFacebookF, color: 'text-primary', link: '#' },
+    { Icon: FaTwitter, color: 'text-primary', link: '#' },
+    { Icon: FaInstagram, color: 'text-primary', link: '#' },
+    { Icon: FaYoutube, color: 'text-primary', link: '#' }
   ];
 
   return (
@@ -69,7 +69,7 @@ export default function FloatingContact() {
               <Icons.HiOutlinePhone />
             </a>
 
-            <a href="https://wa.me/14704520154" target="_blank" rel="noreferrer" className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white text-3xl shadow-[0_4px_15px_rgba(37,211,102,0.4)] hover:scale-110 transition-all" title="WhatsApp Us">
+            <a href="https://wa.me/14704520154" target="_blank" rel="noreferrer" className="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-3xl shadow-[0_4px_15px_rgba(139,0,0,0.4)] hover:scale-110 transition-all" title="WhatsApp Us">
               <FaWhatsapp />
             </a>
           </motion.div>

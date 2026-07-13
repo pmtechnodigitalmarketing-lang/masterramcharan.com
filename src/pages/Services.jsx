@@ -82,7 +82,7 @@ export default function Services() {
                     {service.image ? (
                       <div className="w-full h-40 rounded-2xl overflow-hidden mb-5 relative group-hover:shadow-lg transition-all duration-500">
                         <img src={service.image} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-text-dark/60 to-transparent"></div>
                         <div className="absolute bottom-3 left-3 w-10 h-10 rounded-xl bg-white/20 backdrop-blur-md text-text-dark flex items-center justify-center text-xl border border-primary/20">
                           <Icon />
                         </div>
