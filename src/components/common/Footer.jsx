@@ -14,7 +14,7 @@ export default function Footer() {
           
           <div>
             <Link to="/" className="text-3xl font-serif font-bold text-white mb-6 block drop-shadow-md">
-              ✨ Master Ramcharan
+              🔱 Master Ramcharan
             </Link>
             <p className="text-white/80 mb-6 font-sans">
               Experience trusted astrology consultations across the United States. Receive personalized guidance from experienced astrologers.

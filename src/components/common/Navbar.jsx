@@ -34,8 +34,8 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-serif font-bold text-primary flex items-center gap-2">
-          <HiStar className="text-3xl text-primary" /> Master Ramcharan
+        <Link to="/" className="flex items-center gap-2">
+          <img src="/images/MRC Logo - 1.png" alt="Master Ramcharan" className="h-16 md:h-20 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
