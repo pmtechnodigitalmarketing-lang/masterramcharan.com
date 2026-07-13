@@ -9,7 +9,7 @@ const TEXTS = [
 ];
 
 const IMAGES = [
-  "/images/love-relationship.jpg",
+  "/images/love-relationship.webp",
   "/images/black-magic-removal.webp",
   "/images/marriage.webp"
 ];

@@ -105,7 +105,7 @@ export default function About() {
               <div className="glass-card p-2 rounded-3xl overflow-hidden relative shadow-2xl shadow-primary/10 border-primary/20">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 mix-blend-overlay"></div>
                 <img 
-                  src="/images/Mahadev Blessings  _ Divine Lord Shiva Wallpaper.jpg" 
+                  src="/images/Mahadev Blessings  _ Divine Lord Shiva Wallpaper.webp" 
                   alt="Mahadev Blessings" 
                   className="w-full h-auto rounded-2xl object-cover"
                 />

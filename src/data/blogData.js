@@ -6,7 +6,7 @@ export const blogPosts = [
     category: 'Breakups',
     date: 'Aug 05, 2026',
     author: 'Master Ramcharan',
-    image: '/images/blog/win_back_ex.png',
+    image: '/images/blog/win_back_ex.webp',
     excerpt: 'Experiencing a heartbreak? Discover how understanding your ex’s astrological chart can help you bridge the communication gap and rekindle your romance.',
     content: `
       <p>A breakup is one of the most painful experiences a person can go through. But before you lose hope, it's essential to understand that planetary alignments play a massive role in temporary separations and misunderstandings.</p>
@@ -31,7 +31,7 @@ export const blogPosts = [
     category: 'Breakups',
     date: 'Aug 22, 2026',
     author: 'Master Ramcharan',
-    image: '/images/blog/no_contact.png',
+    image: '/images/blog/no_contact.webp',
     excerpt: 'The no-contact rule is tough. Find out exactly how long you should give your ex space based on their Moon sign.',
     content: `
       <p>The no-contact rule is a psychological staple for getting an ex back, but not all signs process absence the same way. Understanding your partner's Moon sign can tell you exactly when the silence will make their heart grow fonder, and when it will push them away.</p>
@@ -103,7 +103,7 @@ export const blogPosts = [
     category: 'Love Problems',
     date: 'Aug 20, 2026',
     author: 'Master Ramcharan',
-    image: '/images/blog/trust_issues.png',
+    image: '/images/blog/trust_issues.webp',
     excerpt: 'Constant suspicion can destroy a beautiful bond. Learn how to identify astrological triggers for jealousy and heal trust issues for good.',
     content: `
       <p>Trust is the foundation of any lasting relationship. When trust is broken, or when irrational jealousy takes over, the relationship becomes a source of stress rather than a sanctuary.</p>
@@ -154,7 +154,7 @@ export const blogPosts = [
     category: 'Attracting Love',
     date: 'Sep 18, 2026',
     author: 'Master Ramcharan',
-    image: '/images/blog/manifesting_love.png',
+    image: '/images/blog/manifesting_love.webp',
     excerpt: 'Combining astrological timing with manifestation techniques to bring your perfect partner into your reality.',
     content: `
       <p>The Law of Attraction states that like attracts like. To manifest a soulmate, you must first embody the love you wish to receive. Pairing this practice with the timing of a New Moon can amplify your intentions tenfold.</p>
@@ -166,7 +166,7 @@ export const blogPosts = [
     category: 'Attracting Love',
     date: 'Oct 05, 2026',
     author: 'Master Ramcharan',
-    image: '/images/blog/vastu_bedroom.png',
+    image: '/images/blog/vastu_bedroom.webp',
     excerpt: 'Is the energy in your bedroom keeping you single? Learn how Vastu Shastra can clear blockages and invite romance into your life.',
     content: `
       <p>The physical space you inhabit holds energy. If your bedroom is cluttered or arranged in a way that blocks positive flow, it can subconsciously prevent new love from entering your life. Placing rose quartz in the southwest corner is a great start.</p>
@@ -210,7 +210,7 @@ export const blogPosts = [
     category: 'Healing',
     date: 'Sep 28, 2026',
     author: 'Master Ramcharan',
-    image: '/images/blog/healing_toxic.png',
+    image: '/images/blog/healing_toxic.webp',
     excerpt: 'Leaving a toxic relationship leaves energetic scars. Learn how to cut karmic cords and heal your heart so you can love again safely.',
     content: `
       <p>Toxic relationships drain your life force. Even after the physical separation, emotional and energetic cords can keep you tied to your ex-partner, making it impossible to move on or attract a healthy relationship.</p>

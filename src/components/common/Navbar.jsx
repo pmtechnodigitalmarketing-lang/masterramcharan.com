@@ -35,7 +35,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/images/MRC Logo - 1.png" alt="Master Ramcharan" className="h-16 md:h-20 w-auto" />
+          <img src="/images/MRC Logo - 1.webp" alt="Master Ramcharan" className="h-16 md:h-20 w-auto" />
         </Link>
 
         {/* Desktop Nav */}

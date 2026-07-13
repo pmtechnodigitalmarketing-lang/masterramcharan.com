@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
             <div className="relative rounded-3xl overflow-hidden glass p-2 border-primary/20">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent mix-blend-overlay z-10"></div>
               <img 
-                src="/images/17170042324803373.jpg" 
+                src="/images/17170042324803373.webp" 
                 alt="Master Ramcharan Guidance" 
                 className="rounded-2xl w-full h-[500px] object-cover"
               />

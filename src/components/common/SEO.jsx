@@ -5,7 +5,7 @@ export function SEO({
   description, 
   name = 'Master Ramcharan', 
   type = 'website',
-  image = '/og-image.jpg' // We will need to provide this in public/
+  image = '/og-image.webp' // We will need to provide this in public/
 }) {
   return (
     <Helmet>
